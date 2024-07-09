@@ -16,9 +16,12 @@ int main(){
     char c;
     cout<<"Enter a char: ";  //only takes one letter
     cin>>c;
-    cout<<"Entered char "<<c<<" is valid.";
+    cout<<"Entered char "<<c<<" is valid."<<endl;
 
     float d;  //float value ex:123.67
+    cout<<"Enter a float value: ";  //only takes float value.
+    cin>>d;
+    cout<<"Entered float "<<d<<" is valid.";
 
     //defining a constant.
     const float pi=3.14;
