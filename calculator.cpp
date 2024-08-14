@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int a,b;
-    cout<<"Enter 2 numbers with space seperated: ";
+    cout<<"Enter 2 numbers with space separated: ";
     cin>>a>>b;
     string c;
     cout<<"Enter which operation to perform:(+,-,/,*): ";
