@@ -60,8 +60,8 @@ int main() {
         }
 
         // If not a duplicate, add it to nodup array
-        if (!isDuplicate) {
-            nodup[nd++] = arr[i];
+        if (!isDuplicate) {//or if isDuplicate is false
+            nodup[nd++] = arr[i];//increasing nd after insertion
         }
     }
 
