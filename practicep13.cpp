@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+//count the number of times a digit repeats itself in a number
 int main(){
     int n;
     cin>>n;
