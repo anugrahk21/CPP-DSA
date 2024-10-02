@@ -10,12 +10,15 @@ class Array{
     public:
     void get_data(int n){
         size=n;
-        arr=new int[size];
+        arr=new int[size];//arr points to the starting space(address) or 0th index.
         cout<<"Enter elements :";
         for(int i=0;i<size;i++){
-            cin>>*(arr+i);
+            cin>>*(arr+i); //incrementing the pointer which is pointing to the index.
         }
     }
+
+    //ex:
+    //arr[0] -> *(arr+0) or *arr.
 
     void add(){
         int sum=0;
