@@ -43,7 +43,8 @@ int main() {
         }
     }
 
-    // Output remaining elements from arr1 (if any)
+    // Output remaining elements from arr1 (if any)(if one list is larger than the other )
+    //anyway its in sorted order so print them
     while (i < n) {
         cout << arr1[i++] << " ";
     }
